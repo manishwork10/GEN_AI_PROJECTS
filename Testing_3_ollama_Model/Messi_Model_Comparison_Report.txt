@@ -1,0 +1,59 @@
+
+Comparison of Responses from Ollama, Mistral, and Deepseek-R1:1.5b Models
+==========================================================================
+
+Evaluation Criteria
+-------------------
+To compare the model outputs for extracting Messi-related content from HTML, we evaluated the responses on five criteria:
+1. Relevance to Prompt
+2. Factual Accuracy
+3. Clarity and Structure
+4. Conciseness
+5. Avoidance of Misleading Information
+
+
+Model Outputs
+=============
+
+1. Ollama Model Response
+------------------------
+* Lionel Messi is a professional soccer player born on June 24, 1987 in Rosario, Argentina. He plays as a forward for Paris Saint-Germain and the Argentina national team.
+* In 2011, Messi won the Ballon d'Or award for the first time. He has since become one of the most successful players in the history of the tournament, winning it a record-breaking seven times.
+* Messi has also had a successful international career, leading Argentina to the final of the 2020 Copa America. However, he and his team lost to Brazil in the final.
+* In addition to his on-field success, Messi is known for his charitable work off the field. He has supported various causes, including education and healthcare initiatives.
+
+
+2. Mistral Model Response
+-------------------------
+1. Lionel Messi is an Argentine professional footballer who plays as a forward for Paris Saint-Germain and captains the Argentina national team. (From Wikipedia)
+2. Messi and Zlatan Ibrahimovic share the same statue at Milan's San Siro stadium. (From ESPN)
+3. Lionel Messi is a player for Inter Miami CF, an American professional soccer club based in Miami, Florida. (From intermiamicf.com)
+4. Lionel Messi is an Argentine footballer who plays as a forward for Paris Saint-Germain and captains the Argentina national team. He is widely regarded as one of the greatest players of all time. (From ESPN)
+
+Summary: Lionel Messi is an Argentine professional footballer currently playing as a forward for Paris Saint-Germain and captain of the Argentina national team. He has been widely recognized as one of the greatest players in soccer history. Additionally, he shares a statue with Zlatan Ibrahimovic at Milan's San Siro stadium, and he is also a player for Inter Miami CF, an American professional soccer club based in Miami, Florida.
+
+
+3. Deepseek-R1:1.5b Model Response
+----------------------------------
+The text contains multiple mentions of "Lionel Messi" across different languages, including his achievements in football. These include details on his famous goals, performances, and appearances.
+
+
+Model Comparison Summary
+========================
+
+| Criteria                 | Weight | Ollama | Mistral | Deepseek-R1 | Winner                  |
+|--------------------------|--------|--------|---------|-------------|--------------------------|
+| Relevance to prompt      | 30%    | 7      | 9       | 5           | Mistral                 |
+| Factual accuracy         | 30%    | 7      | 7       | 5           | Tie (Ollama & Mistral)  |
+| Clarity & structure      | 20%    | 6      | 9       | 6           | Mistral                 |
+| Conciseness              | 10%    | 6      | 9       | 5           | Mistral                 |
+| Avoids misleading info   | 10%    | 5      | 7       | 4           | Mistral                 |
+
+
+Final Scores
+============
+Ollama Score: 6.6/10  
+Mistral Score: 8.2/10  
+Deepseek-R1 Score: 5.0/10  
+
+Conclusion: The Mistral model provided the best overall response, offering concise, clear, and mostly accurate information with well-structured output. The Ollama model gave useful historical context but was less updated. Deepseek included internal reasoning despite instruction to exclude it, and lacked a proper concise summary.
